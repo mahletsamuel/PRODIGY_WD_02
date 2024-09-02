@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.Stopwatch {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 280px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #043e6e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.time {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+}
+
+.controls {
+    display: flex;
+    flex-wrap:inherit;
+    justify-content: center;
+}
+
+.controls button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.controls button:hover {
+    transform: scale(1.05);
+}
+
+#start {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#pause {
+    background-color: #f44336;
+    color: white;
+}
+
+#reset {
+    background-color: #2196F3;
+    color: white;
+}
+
+#lap {
+    background-color: grey;
+    color: white;
+}
